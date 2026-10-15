@@ -1,0 +1,39 @@
+name: novax_vendor_app
+description: NovaxSuites — Vendor app (Flutter). Manage marketplace orders, stock, sourcing chat.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  novax_core:
+    path: ../novax_core
+  provider: ^6.1.2
+  cupertino_icons: ^1.0.6
+  cached_network_image: ^3.3.1
+  mobile_scanner: ^5.2.3
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.1
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+
+# App launcher icon. Provide a SQUARE icon at assets/icon.png (>=1024x1024),
+# then run:  dart run flutter_launcher_icons
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
+  remove_alpha_ios: true
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/icon.png"

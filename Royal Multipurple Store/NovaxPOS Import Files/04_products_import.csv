@@ -1,0 +1,154 @@
+code,name,category,cost,price,wholesale_price,unit_code,type,productdetails
+ELM-0001,Grammy and composition B-1,Elementary Books,1.5,3.5,0,PCS,standard,Grammy and composition B-1
+ELM-0002,Grammy and composition B-2,Elementary Books,1.5,3.5,0,PCS,standard,Grammy and composition B-2
+ELM-0003,Grammy and composition B-3,Elementary Books,1.5,3.5,0,PCS,standard,Grammy and composition B-3
+ELM-0004,Grammy and composition B-4,Elementary Books,1.5,3.5,0,PCS,standard,Grammy and composition B-4
+ELM-0005,Social Studies B-1,Elementary Books,1.5,3.5,0,PCS,standard,Social Studies B-1
+ELM-0006,Social Studies B-2,Elementary Books,1.5,3.5,0,PCS,standard,Social Studies B-2
+ELM-0007,Social Studies B-3,Elementary Books,1.5,3.5,0,PCS,standard,Social Studies B-3
+ELM-0008,Social Studies B-4,Elementary Books,1.5,3.5,0,PCS,standard,Social Studies B-4
+ELM-0009,Social Studies B-5,Elementary Books,1.5,4.5,0,PCS,standard,Social Studies B-5
+ELM-0010,Social Studies B-6,Elementary Books,1.5,4.5,0,PCS,standard,Social Studies B-6
+JHS-0001,Social Studies B-7,Junior High Books,1.5,4.5,0,PCS,standard,Social Studies B-7
+JHS-0002,Social Studies B-8,Junior High Books,1.5,4.5,0,PCS,standard,Social Studies B-8
+JHS-0003,Social Studies B-9,Junior High Books,1.5,4.5,0,PCS,standard,Social Studies B-9
+JHS-0004,Mathematic B-7,Junior High Books,2,4.5,0,PCS,standard,Mathematic B-7
+JHS-0005,Mathematic B-8,Junior High Books,2,4.5,0,PCS,standard,Mathematic B-8
+JHS-0006,Mathematic B-9,Junior High Books,2,4.5,0,PCS,standard,Mathematic B-9
+JHS-0007,New Science B-7,Junior High Books,1.5,5,0,PCS,standard,New Science B-7
+JHS-0008,New Science B-8,Junior High Books,1.5,5,0,PCS,standard,New Science B-8
+JHS-0009,New Science B-9,Junior High Books,1.5,5,0,PCS,standard,New Science B-9
+ELM-0011,Phonic B-1,Elementary Books,1.5,3.5,0,PCS,standard,Phonic B-1
+ELM-0012,Phonic B-2,Elementary Books,1.5,3.5,0,PCS,standard,Phonic B-2
+ELM-0013,Phonic B-3,Elementary Books,1.5,3.5,0,PCS,standard,Phonic B-3
+ELM-0014,Phonic B-4,Elementary Books,1.5,3.5,0,PCS,standard,Phonic B-4
+ELM-0015,Phonic B-5,Elementary Books,1.5,3.5,0,PCS,standard,Phonic B-5
+ELM-0016,New Elementary English B-5,Elementary Books,1.5,4.25,0,PCS,standard,New Elementary English B-5
+ELM-0017,New Elementary English B-6,Elementary Books,1.5,4.25,0,PCS,standard,New Elementary English B-6
+ELM-0018,Star Natural Science B-1,Elementary Books,1.5,3.5,0,PCS,standard,Star Natural Science B-1
+ELM-0019,Star Natural Science B-2,Elementary Books,1.5,3.5,0,PCS,standard,Star Natural Science B-2
+ELM-0020,Star Natural Science B-3,Elementary Books,1.5,3.5,0,PCS,standard,Star Natural Science B-3
+ELM-0021,New Elementary Science B-5,Elementary Books,1.5,4.25,0,PCS,standard,New Elementary Science B-5
+ELM-0022,Elementary Math B-1,Elementary Books,1.5,3.5,0,PCS,standard,Elementary Math B-1
+ELM-0023,Elementary Math B-2,Elementary Books,1.5,3.5,0,PCS,standard,Elementary Math B-2
+ELM-0024,Elementary Math B-3,Elementary Books,1.5,3.5,0,PCS,standard,Elementary Math B-3
+ELM-0025,Elementary Math B-4,Elementary Books,1.5,3.5,0,PCS,standard,Elementary Math B-4
+ELM-0026,Elementary Math B-5,Elementary Books,1.5,4,0,PCS,standard,Elementary Math B-5
+ELM-0027,Elementary Math B-6,Elementary Books,1.5,4,0,PCS,standard,Elementary Math B-6
+ECD-0001,Mont. Literacy Skill Nursery 1,ECD Books,1.5,3.5,0,PCS,standard,Mont. Literacy Skill Nursery 1
+ECD-0002,Mont. Environmental Study Kg 2,ECD Books,1.5,3.5,0,PCS,standard,Mont. Environmental Study Kg 2
+ECD-0003,Mont. Natural Science Kg-2,ECD Books,1.5,3.5,0,PCS,standard,Mont. Natural Science Kg-2
+ECD-0004,Numeracy Skill Kg-1,ECD Books,1.5,3.5,0,PCS,standard,Numeracy Skill Kg-1
+ECD-0005,Essential Mont. Writing Skill Nurs 2,ECD Books,1.5,3.5,0,PCS,standard,Essential Mont. Writing Skill Nurs 2
+ECD-0006,Essential Mont. Writing Env. Nur - 2,ECD Books,1.5,3.5,0,PCS,standard,Essential Mont. Writing Env. Nur - 2
+ELM-0028,Primary Integrated Science B-4,Elementary Books,1.5,3.5,0,PCS,standard,Primary Integrated Science B-4
+JHS-0010,Law + You G-7,Junior High Books,1.5,5,0,PCS,standard,Law + You G-7
+JHS-0011,Law + You G-8,Junior High Books,1.5,5,0,PCS,standard,Law + You G-8
+ECD-0007,Modern Handwriting B-1,ECD Books,1.5,3.5,0,PCS,standard,Modern Handwriting B-1
+ECD-0008,Modern Handwriting B-2,ECD Books,1.5,3.5,0,PCS,standard,Modern Handwriting B-2
+ECD-0009,Modern Handwriting B-3,ECD Books,1.5,3.5,0,PCS,standard,Modern Handwriting B-3
+SHS-0001,Apostle Series III (literature-in-English),Senior High,7.5,20,0,PCS,standard,Apostle Series III (literature-in-English)
+SHS-0002,A+ series Elective Mathematic,Senior High,10,25,0,PCS,standard,A+ series Elective Mathematic
+SHS-0003,A+ Series Economic,Senior High,10,25,0,PCS,standard,A+ Series Economic
+SHS-0004,A+ Series Physics,Senior High,8.33,20,0,PCS,standard,A+ Series Physics
+SHS-0005,Core Mathematic,Senior High,10,25,0,PCS,standard,Core Mathematic
+SHS-0006,AKi-Ola Human And Reg. Geography,Senior High,10,20,0,PCS,standard,AKi-Ola Human And Reg. Geography
+SHS-0007,AKI-OLA series Pra. Geography,Senior High,8,20,0,PCS,standard,AKI-OLA series Pra. Geography
+SHS-0008,Physical Geography,Senior High,10,25,0,PCS,standard,Physical Geography
+SHS-0009,AKI-OLA Series  Physics Practical,Senior High,7.9,20,0,PCS,standard,AKI-OLA Series  Physics Practical
+SHS-0010,AKI-OLA Series Physics,Senior High,8.33,20,0,PCS,standard,AKI-OLA Series Physics
+SHS-0011,AKI-OLA Series Practical Chemistry,Senior High,7.9,20,0,PCS,standard,AKI-OLA Series Practical Chemistry
+SHS-0012,AKI-OLA Series Physical Geography,Senior High,7.9,25,0,PCS,standard,AKI-OLA Series Physical Geography
+SHS-0013,AKI-OLA Series Practical Biology,Senior High,8.3,20,0,PCS,standard,AKI-OLA Series Practical Biology
+SHS-0014,Combine Edition Economics,Senior High,7.9,20,0,PCS,standard,Combine Edition Economics
+GRD-0001,Things fall apart,General Readers,1.09,2.5,0,PCS,standard,Things fall apart
+GRD-0002,Antony And Cleopatra,General Readers,0.4,2,0,PCS,standard,Antony And Cleopatra
+GRD-0003,Antony And Cleopatra,General Readers,2.5,6,0,PCS,standard,Antony And Cleopatra
+SHS-0015,Right hour series Human & Regional Geo.,Senior High,10,25,0,PCS,standard,Right hour series Human & Regional Geo.
+SHS-0016,Right Hour Series Geography,Senior High,14.5,25,0,PCS,standard,Right Hour Series Geography
+SHS-0017,One Touch Economic,Senior High,9.16,20,0,PCS,standard,One Touch Economic
+GTB-0001,EXAM FOCUS Biology,General Test Books,2.99,15,0,PCS,standard,EXAM FOCUS Biology
+GTB-0002,EXAM FOCUS Mathematic,General Test Books,2.92,15,0,PCS,standard,EXAM FOCUS Mathematic
+GTB-0003,EXAM FOCUS English,General Test Books,2.92,15,0,PCS,standard,EXAM FOCUS English
+GTB-0004,EXAM FOCUS Chemistry,General Test Books,2.92,15,0,PCS,standard,EXAM FOCUS Chemistry
+GTB-0005,EXAM FOCUS Literature in English,General Test Books,3.28,20,0,PCS,standard,EXAM FOCUS Literature in English
+GRD-0004,The Marriage of Anansewa,General Readers,0.24,1.5,0,PCS,standard,The Marriage of Anansewa
+GTB-0006,Essential Physics,General Test Books,2.55,15,0,PCS,standard,Essential Physics
+GTB-0007,Essential Mathematic,General Test Books,2.91,15,0,PCS,standard,Essential Mathematic
+GTB-0008,Essential English Language,General Test Books,2.61,10,0,PCS,standard,Essential English Language
+GTB-0009,Essential Geography,General Test Books,2.77,15,0,PCS,standard,Essential Geography
+GRD-0005,The Success Principles,General Readers,3.23,6.5,0,PCS,standard,The Success Principles
+GRD-0006,The School of Money,General Readers,4.38,9,0,PCS,standard,The School of Money
+GRD-0007,Making It big,General Readers,4.38,9,0,PCS,standard,Making It big
+GRD-0008,Immutable laws of Marketing,General Readers,1,10,0,PCS,standard,Immutable laws of Marketing
+GRD-0009,Take the Risk,General Readers,0.95,7,0,PCS,standard,Take the Risk
+GRD-0010,Overcoming Crisis,General Readers,1.49,7,0,PCS,standard,Overcoming Crisis
+GRD-0011,The Total Money makeover,General Readers,0.2,9,0,PCS,standard,The Total Money makeover
+GRD-0012,How to get Rich,General Readers,1.71,7.3,0,PCS,standard,How to get Rich
+GRD-0013,Millionaire Success habits,General Readers,1.45,7.5,0,PCS,standard,Millionaire Success habits
+GRD-0014,The Power of Habit,General Readers,2.33,6.5,0,PCS,standard,The Power of Habit
+GRD-0015,How to give a great presentation,General Readers,0.97,6,0,PCS,standard,How to give a great presentation
+GRD-0016,Million dollars Habit,General Readers,1.49,6,0,PCS,standard,Million dollars Habit
+GRD-0017,Becoming a person of influence,General Readers,1.26,6.5,0,PCS,standard,Becoming a person of influence
+GRD-0018,Atonic Habit,General Readers,2.38,9,0,PCS,standard,Atonic Habit
+GRD-0019,Think and Grow Rich,General Readers,1.78,9,0,PCS,standard,Think and Grow Rich
+GRD-0020,How to win Friends and Influence people,General Readers,4.7,15,0,PCS,standard,How to win Friends and Influence people
+GRD-0021,Brave enough to succeed,General Readers,1.11,4,0,PCS,standard,Brave enough to succeed
+GRD-0022,48 law of power,General Readers,0.89,4,0,PCS,standard,48 law of power
+GRD-0023,Rich Dad poor Dad,General Readers,0.97,6,0,PCS,standard,Rich Dad poor Dad
+GRD-0024,Think Big,General Readers,0.82,4,0,PCS,standard,Think Big
+SHS-0018,Practical Chemistry,Senior High,2,10,0,PCS,standard,Practical Chemistry
+SHS-0019,Understanding Chemistry,Senior High,3.24,10,0,PCS,standard,Understanding Chemistry
+SHS-0020,New School Chemistry,Senior High,2.92,15,0,PCS,standard,New School Chemistry
+GTB-0010,"Verbal Reasoning B-3,4,5 &6",General Test Books,1.6,8.5,0,PCS,standard,"Verbal Reasoning B-3,4,5 &6"
+ECD-0010,Steps to Good Hand writing 1-6,ECD Books,0.54,3,0,PCS,standard,Steps to Good Hand writing 1-6
+ECD-0011,Super Smart kids Number writing Book 1-50,ECD Books,1.19,4,0,PCS,standard,Super Smart kids Number writing Book 1-50
+ECD-0012,Small letter Handwriting book,ECD Books,1.19,4,0,PCS,standard,Small letter Handwriting book
+ECD-0013,Super Smart kids Number writing Book 1-100,ECD Books,1.19,4,0,PCS,standard,Super Smart kids Number writing Book 1-100
+ECD-0014,Smart kids number writing B-1-100,ECD Books,1.19,4,0,PCS,standard,Smart kids number writing B-1-100
+ECD-0015,Smart Kids number writing B-123-100,ECD Books,1.19,4,0,PCS,standard,Smart Kids number writing B-123-100
+ECD-0016,Colouring Books smart Kids,ECD Books,0.82,2.5,0,PCS,standard,Colouring Books smart Kids
+ECD-0017,Capital Letter Handwriting Book,ECD Books,0.82,2.5,0,PCS,standard,Capital Letter Handwriting Book
+ECD-0018,Colors Alphabet,ECD Books,0.82,2.5,0,PCS,standard,Colors Alphabet
+ECD-0019,Shapes and Colors,ECD Books,1.19,4,0,PCS,standard,Shapes and Colors
+BIB-0001,Church Planning,Bibles,1.34,10,0,PCS,standard,Church Planning
+BIB-0002,Life application Studies  Bible,Bibles,51,125,0,PCS,standard,Life application Studies  Bible
+BIB-0003,NKJV Giant print/Center-column,Bibles,18.5,30,0,PCS,standard,NKJV Giant print/Center-column
+BIB-0004,Holy Bible  King James version BSN,Bibles,13.33,35,0,PCS,standard,Holy Bible  King James version BSN
+BIB-0005,Holy Bible NIV  big Biblica (Big),Bibles,8.3,30,0,PCS,standard,Holy Bible NIV  big Biblica (Big)
+BIB-0006,Holy Bible Giant Print - HP,Bibles,10.43,30,0,PCS,standard,Holy Bible Giant Print - HP
+BIB-0007,Holy Bible Giant print NKJV  Nelson,Bibles,12.68,45,0,PCS,standard,Holy Bible Giant print NKJV  Nelson
+BIB-0008,Holy Bible  NIV Small Biblica,Bibles,6,20,0,PCS,standard,Holy Bible  NIV Small Biblica
+BIB-0009,The Maxwell Leadership Bible,Bibles,54,125,0,PCS,standard,The Maxwell Leadership Bible
+GRD-0025,The Diarry of a CEO,General Readers,2.61,6,0,PCS,standard,The Diarry of a CEO
+GRD-0026,A Men for all Seasons,General Readers,0.4,3.5,0,PCS,standard,A Men for all Seasons
+GRD-0027,Key Point,General Readers,0.24,1.5,0,PCS,standard,Key Point
+GRD-0028,Once upon an Elephant,General Readers,0.34,2.5,0,PCS,standard,Once upon an Elephant
+GRD-0029,An Inspector calls,General Readers,0.4,3,0,PCS,standard,An Inspector calls
+GRD-0030,Redemption Road,General Readers,0.56,3.5,0,PCS,standard,Redemption Road
+GRD-0031,To Kill a Mocking bird,General Readers,0.85,5,0,PCS,standard,To Kill a Mocking bird
+GRD-0032,Path of Lucas,General Readers,0.87,3.5,0,PCS,standard,Path of Lucas
+GRD-0033,Longman Pocket Dictionary,General Readers,1.06,3.5,0,PCS,standard,Longman Pocket Dictionary
+GRD-0034,Longman active Study Dictionary,General Readers,3.21,10,0,PCS,standard,Longman active Study Dictionary
+GRD-0035,Oxford Mini Reference Dictionary,General Readers,0.69,2.5,0,PCS,standard,Oxford Mini Reference Dictionary
+GRD-0036,Oxford English Mini Dictionary,General Readers,0.87,2.5,0,PCS,standard,Oxford English Mini Dictionary
+GRD-0037,Longman Primary Dictionary,General Readers,0.97,5,0,PCS,standard,Longman Primary Dictionary
+MSR-0001,T- square  (100cm),Measurement Tools,0,15,0,PCS,standard,T- square  (100cm)
+MSR-0002,T -square  (80cm),Measurement Tools,0,10,0,PCS,standard,T -square  (80cm)
+MSR-0003,Board Set,Measurement Tools,0,30,0,PCS,standard,Board Set
+MSR-0004,Set Square,Measurement Tools,0,12,0,PCS,standard,Set Square
+MSR-0005,Scale ruler,Measurement Tools,0,10,0,PCS,standard,Scale ruler
+MSR-0006,White Board (Medium Size),Measurement Tools,0,60,0,PCS,standard,White Board (Medium Size)
+MSR-0007,White Board (Small Size),Measurement Tools,0,45,0,PCS,standard,White Board (Small Size)
+PRJ-0001,Stata has friend,Project Books,0,0.3,0.29,PCS,standard,Stata has friend
+PRJ-0002,Tinisi   the crab hunter,Project Books,0,0.3,0.29,PCS,standard,Tinisi   the crab hunter
+PRJ-0003,The palm Tree,Project Books,0,0.3,0.29,PCS,standard,The palm Tree
+PRJ-0004,My little snail,Project Books,0,0.3,0.29,PCS,standard,My little snail
+ECD-0020,Mont. Natural Science K-1,ECD Books,0,0,0,PCS,standard,Mont. Natural Science K-1
+ECD-0021,Mont. Natural Science  Skill,ECD Books,0,0,0,PCS,standard,Mont. Natural Science  Skill
+ECD-0022,Essential Mont. Writing skill Nursery -2,ECD Books,0,0,0,PCS,standard,Essential Mont. Writing skill Nursery -2
+ECD-0023,Mont. Literacy Skill Nursery -2,ECD Books,0,0,0,PCS,standard,Mont. Literacy Skill Nursery -2
+ECD-0024,Mont. Numeracy Skill Nursery -2,ECD Books,0,0,0,PCS,standard,Mont. Numeracy Skill Nursery -2
+ECD-0025,Essential Mont. Literacy Skill Nursery -!,ECD Books,0,0,0,PCS,standard,Essential Mont. Literacy Skill Nursery -!
+ECD-0026,Mont. Writing skills B-3,ECD Books,0,0,0,PCS,standard,Mont. Writing skills B-3
+ECD-0027,Mont. Natural Science  Skills,ECD Books,0,0,0,PCS,standard,Mont. Natural Science  Skills

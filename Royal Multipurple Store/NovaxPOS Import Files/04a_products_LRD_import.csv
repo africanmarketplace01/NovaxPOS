@@ -1,0 +1,105 @@
+code,name,category,cost,price,wholesale_price,unit_code,type,productdetails
+ELM-0001,Grammy and composition B-1,Elementary Books,300.0,700.0,0,PCS,standard,Source: Books-in-Store Database.
+ELM-0002,Grammy and composition B-2,Elementary Books,300.0,700.0,0,PCS,standard,Source: Books-in-Store Database.
+ELM-0003,Grammy and composition B-3,Elementary Books,300.0,700.0,0,PCS,standard,Source: Books-in-Store Database.
+ELM-0004,Grammy and composition B-4,Elementary Books,300.0,700.0,0,PCS,standard,Source: Books-in-Store Database.
+ELM-0005,Social Studies B-1,Elementary Books,300.0,700.0,0,PCS,standard,Source: Books-in-Store Database.
+ELM-0006,Social Studies B-2,Elementary Books,300.0,700.0,0,PCS,standard,Source: Books-in-Store Database.
+ELM-0007,Social Studies B-3,Elementary Books,300.0,700.0,0,PCS,standard,Source: Books-in-Store Database.
+ELM-0008,Social Studies B-4,Elementary Books,300.0,700.0,0,PCS,standard,Source: Books-in-Store Database.
+ELM-0009,Social Studies B-5,Elementary Books,300.0,900.0,0,PCS,standard,Source: Books-in-Store Database.
+ELM-0010,Social Studies B-6,Elementary Books,300.0,900.0,0,PCS,standard,Source: Books-in-Store Database.
+JHS-0001,Social Studies B-7,Junior High Books,300.0,900.0,0,PCS,standard,Source: Books-in-Store Database.
+JHS-0002,Social Studies B-8,Junior High Books,300.0,900.0,0,PCS,standard,Source: Books-in-Store Database.
+JHS-0003,Social Studies B-9,Junior High Books,300.0,900.0,0,PCS,standard,Source: Books-in-Store Database.
+JHS-0004,Mathematic B-7,Junior High Books,400.0,900.0,0,PCS,standard,Source: Books-in-Store Database.
+JHS-0005,Mathematic B-8,Junior High Books,400.0,900.0,0,PCS,standard,Source: Books-in-Store Database.
+JHS-0006,Mathematic B-9,Junior High Books,400.0,900.0,0,PCS,standard,Source: Books-in-Store Database.
+JHS-0007,New Science B-7,Junior High Books,300.0,1000.0,0,PCS,standard,Source: Books-in-Store Database.
+JHS-0008,New Science B-8,Junior High Books,300.0,1000.0,0,PCS,standard,Source: Books-in-Store Database.
+JHS-0009,New Science B-9,Junior High Books,300.0,1000.0,0,PCS,standard,Source: Books-in-Store Database.
+ELM-0011,Phonic B-1,Elementary Books,300.0,700.0,0,PCS,standard,Source: Books-in-Store Database.
+ELM-0012,Phonic B-2,Elementary Books,300.0,700.0,0,PCS,standard,Source: Books-in-Store Database.
+ELM-0013,Phonic B-3,Elementary Books,300.0,700.0,0,PCS,standard,Source: Books-in-Store Database.
+ELM-0014,Phonic B-4,Elementary Books,300.0,700.0,0,PCS,standard,Source: Books-in-Store Database.
+ELM-0015,Phonic B-5,Elementary Books,300.0,700.0,0,PCS,standard,Source: Books-in-Store Database.
+ELM-0016,New Elementary English B-5,Elementary Books,300.0,850.0,0,PCS,standard,Source: Books-in-Store Database.
+ELM-0017,New Elementary English B-6,Elementary Books,300.0,850.0,0,PCS,standard,Source: Books-in-Store Database.
+ELM-0018,Star Natural Science B-1,Elementary Books,300.0,700.0,0,PCS,standard,Source: Books-in-Store Database.
+ELM-0019,Star Natural Science B-2,Elementary Books,300.0,700.0,0,PCS,standard,Source: Books-in-Store Database.
+ELM-0020,Star Natural Science B-3,Elementary Books,300.0,700.0,0,PCS,standard,Source: Books-in-Store Database.
+ELM-0021,New Elementary Science B-5,Elementary Books,300.0,850.0,0,PCS,standard,Source: Books-in-Store Database.
+ELM-0022,Elementary Math B-1,Elementary Books,300.0,700.0,0,PCS,standard,Source: Books-in-Store Database.
+ELM-0023,Elementary Math B-2,Elementary Books,300.0,700.0,0,PCS,standard,Source: Books-in-Store Database.
+ELM-0024,Elementary Math B-3,Elementary Books,300.0,700.0,0,PCS,standard,Source: Books-in-Store Database.
+ELM-0025,Elementary Math B-4,Elementary Books,300.0,700.0,0,PCS,standard,Source: Books-in-Store Database.
+ELM-0026,Elementary Math B-5,Elementary Books,300.0,800.0,0,PCS,standard,Source: Books-in-Store Database.
+ELM-0027,Elementary Math B-6,Elementary Books,300.0,800.0,0,PCS,standard,Source: Books-in-Store Database.
+ECD-0001,Mont. Literacy Skill Nursery 1,ECD Books,300.0,700.0,0,PCS,standard,Source: Books-in-Store Database.
+ECD-0002,Mont. Environmental Study Kg 2,ECD Books,300.0,700.0,0,PCS,standard,Source: Books-in-Store Database.
+ECD-0003,Mont. Natural Science Kg-2,ECD Books,300.0,700.0,0,PCS,standard,Source: Books-in-Store Database.
+ECD-0004,Numeracy Skill Kg-1,ECD Books,300.0,700.0,0,PCS,standard,Source: Books-in-Store Database.
+ECD-0005,Essential Mont. Writing Skill Nurs 2,ECD Books,300.0,700.0,0,PCS,standard,Source: Books-in-Store Database.
+ECD-0006,Essential Mont. Writing Env. Nur - 2,ECD Books,300.0,700.0,0,PCS,standard,Source: Books-in-Store Database.
+ELM-0028,Primary Integrated Science B-4,Elementary Books,300.0,700.0,0,PCS,standard,Source: Books-in-Store Database.
+JHS-0010,Law + You G-7,Junior High Books,300.0,1000.0,0,PCS,standard,Source: Books-in-Store Database.
+JHS-0011,Law + You G-8,Junior High Books,300.0,1000.0,0,PCS,standard,Source: Books-in-Store Database.
+ECD-0007,Modern Handwriting B-1,ECD Books,300.0,700.0,0,PCS,standard,Source: Books-in-Store Database.
+ECD-0008,Modern Handwriting B-2,ECD Books,300.0,700.0,0,PCS,standard,Source: Books-in-Store Database.
+ECD-0009,Modern Handwriting B-3,ECD Books,300.0,700.0,0,PCS,standard,Source: Books-in-Store Database.
+GRD-0001,Things fall apart,General Readers,218.0,500.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 1.09 USD to 218.0 LRD at 1 USD = 200 LRD.
+GRD-0002,Antony And Cleopatra,General Readers,80.0,400.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 0.4 USD to 80.0 LRD at 1 USD = 200 LRD.
+GRD-0003,Antony And Cleopatra,General Readers,500.0,1200.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 2.5 USD to 500.0 LRD at 1 USD = 200 LRD.
+GRD-0004,The Marriage of Anansewa,General Readers,48.0,300.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 0.24 USD to 48.0 LRD at 1 USD = 200 LRD.
+GRD-0005,The Success Principles,General Readers,645.0,1300.0,0,PCS,standard,Source: Books-in-Store Database.
+GRD-0007,Making It big,General Readers,876.0,1800.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 4.38 USD to 876.0 LRD at 1 USD = 200 LRD.
+GRD-0009,Take the Risk,General Readers,190.0,1400.0,0,PCS,standard,Source: Books-in-Store Database.
+GRD-0010,Overcoming Crisis,General Readers,298.0,1400.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 1.49 USD to 298.0 LRD at 1 USD = 200 LRD.
+GRD-0011,The Total Money makeover,General Readers,40.0,1800.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 0.2 USD to 40.0 LRD at 1 USD = 200 LRD.
+GRD-0012,How to get Rich,General Readers,342.0,1460.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 1.71 USD to 342.0 LRD at 1 USD = 200 LRD.
+GRD-0013,Millionaire Success habits,General Readers,290.0,1500.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 1.45 USD to 290.0 LRD at 1 USD = 200 LRD.
+GRD-0014,The Power of Habit,General Readers,466.0,1300.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 2.33 USD to 466.0 LRD at 1 USD = 200 LRD.
+GRD-0015,How to give a great presentation,General Readers,194.0,1200.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 0.97 USD to 194.0 LRD at 1 USD = 200 LRD.
+GRD-0016,Million dollars Habit,General Readers,298.0,1200.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 1.49 USD to 298.0 LRD at 1 USD = 200 LRD.
+GRD-0017,Becoming a person of influence,General Readers,252.0,1300.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 1.26 USD to 252.0 LRD at 1 USD = 200 LRD.
+GRD-0018,Atonic Habit,General Readers,476.0,1800.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 2.38 USD to 476.0 LRD at 1 USD = 200 LRD.
+GRD-0019,Think and Grow Rich,General Readers,356.0,1800.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 1.78 USD to 356.0 LRD at 1 USD = 200 LRD.
+GRD-0021,Brave enough to succeed,General Readers,222.0,800.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 1.11 USD to 222.0 LRD at 1 USD = 200 LRD.
+GRD-0022,48 law of power,General Readers,178.0,800.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 0.89 USD to 178.0 LRD at 1 USD = 200 LRD.
+GRD-0023,Rich Dad poor Dad,General Readers,194.0,1200.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 0.97 USD to 194.0 LRD at 1 USD = 200 LRD.
+GRD-0024,Think Big,General Readers,164.0,800.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 0.82 USD to 164.0 LRD at 1 USD = 200 LRD.
+GTB-0010,"Verbal Reasoning B-3,4,5 &6",General Test Books,320.0,1700.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 1.6 USD to 320.0 LRD at 1 USD = 200 LRD.
+ECD-0010,Steps to Good Hand writing 1-6,ECD Books,108.0,600.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 0.54 USD to 108.0 LRD at 1 USD = 200 LRD.
+ECD-0011,Super Smart kids Number writing Book 1-50,ECD Books,238.0,800.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 1.19 USD to 238.0 LRD at 1 USD = 200 LRD.
+ECD-0012,Small letter Handwriting book,ECD Books,238.0,800.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 1.19 USD to 238.0 LRD at 1 USD = 200 LRD.
+ECD-0013,Super Smart kids Number writing Book 1-100,ECD Books,238.0,800.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 1.19 USD to 238.0 LRD at 1 USD = 200 LRD.
+ECD-0014,Smart kids number writing B-1-100,ECD Books,238.0,800.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 1.19 USD to 238.0 LRD at 1 USD = 200 LRD.
+ECD-0015,Smart Kids number writing B-123-100,ECD Books,238.0,800.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 1.19 USD to 238.0 LRD at 1 USD = 200 LRD.
+ECD-0016,Colouring Books smart Kids,ECD Books,164.0,500.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 0.82 USD to 164.0 LRD at 1 USD = 200 LRD.
+ECD-0017,Capital Letter Handwriting Book,ECD Books,0.82,500.0,0,PCS,standard,Source: Books-in-Store Database.
+ECD-0018,Colors Alphabet,ECD Books,164.0,500.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 0.82 USD to 164.0 LRD at 1 USD = 200 LRD.
+ECD-0019,Shapes and Colors,ECD Books,238.0,800.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 1.19 USD to 238.0 LRD at 1 USD = 200 LRD.
+GRD-0025,The Diarry of a CEO,General Readers,522.0,1200.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 2.61 USD to 522.0 LRD at 1 USD = 200 LRD.
+GRD-0026,A Men for all Seasons,General Readers,80.0,700.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 0.4 USD to 80.0 LRD at 1 USD = 200 LRD.
+GRD-0027,Key Point,General Readers,48.0,300.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 0.24 USD to 48.0 LRD at 1 USD = 200 LRD.
+GRD-0028,Once upon an Elephant,General Readers,68.0,500.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 0.34 USD to 68.0 LRD at 1 USD = 200 LRD.
+GRD-0029,An Inspector calls,General Readers,80.0,600.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 0.4 USD to 80.0 LRD at 1 USD = 200 LRD.
+GRD-0030,Redemption Road,General Readers,112.0,700.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 0.56 USD to 112.0 LRD at 1 USD = 200 LRD.
+GRD-0031,To Kill a Mocking bird,General Readers,170.0,1000.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 0.85 USD to 170.0 LRD at 1 USD = 200 LRD.
+GRD-0032,Path of Lucas,General Readers,174.0,700.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 0.87 USD to 174.0 LRD at 1 USD = 200 LRD.
+GRD-0033,Longman Pocket Dictionary,General Readers,212.0,700.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 1.06 USD to 212.0 LRD at 1 USD = 200 LRD.
+GRD-0035,Oxford Mini Reference Dictionary,General Readers,138.0,500.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 0.69 USD to 138.0 LRD at 1 USD = 200 LRD.
+GRD-0036,Oxford English Mini Dictionary,General Readers,174.0,500.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 0.87 USD to 174.0 LRD at 1 USD = 200 LRD.
+GRD-0037,Longman Primary Dictionary,General Readers,195.0,1000.0,0,PCS,standard,Source: Books-in-Store Database.
+PRJ-0001,Stata has friend,Project Books,0,60.0,58.33,PCS,standard,Source: Project-in-Store Database. Buying/cost price not recorded in source document - set manually for accurate profit tracking.
+PRJ-0002,Tinisi   the crab hunter,Project Books,0,60.0,58.33,PCS,standard,Source: Project-in-Store Database. Buying/cost price not recorded in source document - set manually for accurate profit tracking.
+PRJ-0003,The palm Tree,Project Books,0,60.0,58.33,PCS,standard,Source: Project-in-Store Database. Buying/cost price not recorded in source document - set manually for accurate profit tracking.
+PRJ-0004,My little snail,Project Books,0,60.0,58.33,PCS,standard,Source: Project-in-Store Database. Buying/cost price not recorded in source document - set manually for accurate profit tracking.
+ECD-0020,Mont. Natural Science K-1,ECD Books,0,0,0,PCS,standard,Source: warehouse stock list only. No cost/price found (item appears only in warehouse stock list) - PLEASE SET COST & PRICE before selling.
+ECD-0021,Mont. Natural Science  Skill,ECD Books,0,0,0,PCS,standard,Source: warehouse stock list only. No cost/price found (item appears only in warehouse stock list) - PLEASE SET COST & PRICE before selling.
+ECD-0022,Essential Mont. Writing skill Nursery -2,ECD Books,0,0,0,PCS,standard,Source: warehouse stock list only. No cost/price found (item appears only in warehouse stock list) - PLEASE SET COST & PRICE before selling.
+ECD-0023,Mont. Literacy Skill Nursery -2,ECD Books,0,0,0,PCS,standard,Source: warehouse stock list only. No cost/price found (item appears only in warehouse stock list) - PLEASE SET COST & PRICE before selling.
+ECD-0024,Mont. Numeracy Skill Nursery -2,ECD Books,0,0,0,PCS,standard,Source: warehouse stock list only. No cost/price found (item appears only in warehouse stock list) - PLEASE SET COST & PRICE before selling.
+ECD-0025,Essential Mont. Literacy Skill Nursery -!,ECD Books,0,0,0,PCS,standard,Source: warehouse stock list only. No cost/price found (item appears only in warehouse stock list) - PLEASE SET COST & PRICE before selling.
+ECD-0026,Mont. Writing skills B-3,ECD Books,0,0,0,PCS,standard,Source: warehouse stock list only. No cost/price found (item appears only in warehouse stock list) - PLEASE SET COST & PRICE before selling.
+ECD-0027,Mont. Natural Science  Skills,ECD Books,0,0,0,PCS,standard,Source: warehouse stock list only. No cost/price found (item appears only in warehouse stock list) - PLEASE SET COST & PRICE before selling.

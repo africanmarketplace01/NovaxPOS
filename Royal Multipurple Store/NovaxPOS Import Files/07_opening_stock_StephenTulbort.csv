@@ -1,0 +1,10 @@
+code,qty,unit_code,cost,discount,tax,margin,margin_type,price,imei
+ECD-0002,240,PCS,1.5,0,no tax,133.33,percentage,3.5,
+ECD-0007,80,PCS,1.5,0,no tax,133.33,percentage,3.5,
+ECD-0008,80,PCS,1.5,0,no tax,133.33,percentage,3.5,
+ECD-0022,172,PCS,0,0,no tax,0,percentage,0,
+ECD-0023,162,PCS,0,0,no tax,0,percentage,0,
+ECD-0024,50,PCS,0,0,no tax,0,percentage,0,
+ECD-0025,135,PCS,0,0,no tax,0,percentage,0,
+ECD-0026,34,PCS,0,0,no tax,0,percentage,0,
+ECD-0027,80,PCS,0,0,no tax,0,percentage,0,

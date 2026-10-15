@@ -1,0 +1,41 @@
+name: novax_marketplace_app
+description: NovaxSuites Marketplace — customer shopping app (Flutter).
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  novax_core:
+    path: ../novax_core
+  provider: ^6.1.2
+  cached_network_image: ^3.3.1
+  cupertino_icons: ^1.0.6
+  image_picker: ^1.1.2
+  shared_preferences: ^2.2.3
+  video_player: ^2.9.2
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.1
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+
+# App launcher icon (phone home screen). Provide a SQUARE icon at assets/icon.png
+# (>=1024x1024 — e.g. just the terminal+link mark, not the wide wordmark) then run:
+#   dart run flutter_launcher_icons
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
+  remove_alpha_ios: true
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/icon.png"

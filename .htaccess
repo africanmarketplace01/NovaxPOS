@@ -1,0 +1,99 @@
+# ============================================================
+# NovaxPOS — Apache Configuration
+# Handles Laravel URL routing and browser caching for assets
+# ============================================================
+
+# ── URL Rewriting ────────────────────────────────────────────
+# Requires Apache mod_rewrite module to be enabled
+<IfModule mod_rewrite.c>
+
+    # Disable Apache's MultiViews (content negotiation) to prevent
+    # Apache from guessing and serving wrong files with similar names
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
+
+    # ── CSV Download Handling ─────────────────────────────────
+    # Register .csv as a plain text MIME type
+    AddType text/csv .csv
+
+    # Force .csv files to download as an attachment instead of
+    # opening in the browser tab
+    <FilesMatch "\.csv$">
+        Header set Content-Disposition "attachment; filename=%{REQUEST_FILENAME}e" env=REQUEST_FILENAME
+    </FilesMatch>
+
+    # Override MIME type to binary stream so the browser always
+    # triggers a file download dialog for .csv files
+    AddType application/octet-stream .csv
+
+    # ── Laravel Routing ───────────────────────────────────────
+    # Activate the URL rewriting engine
+    RewriteEngine On
+
+    # Rule 1: If the request is a real existing file or directory,
+    # serve it directly without rewriting (static assets, etc.)
+    RewriteCond %{REQUEST_FILENAME} -d [OR]
+    RewriteCond %{REQUEST_FILENAME} -f
+    RewriteRule ^ ^$1 [N]
+
+    # Rule 2: If the URL has a file extension (e.g. .js, .css, .png),
+    # look for that file inside the public/ folder
+    RewriteCond %{REQUEST_URI} (\.\w+$) [NC]
+    RewriteRule ^(.*)$ public/$1
+
+    # Rule 3: If nothing above matched (no real file/directory exists),
+    # send all requests to server.php — Laravel's front controller.
+    # This is what makes Laravel's router handle every page request.
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ server.php
+
+    # Rule 4: Pass the HTTP Authorization header through to PHP.
+    # Apache sometimes strips this header, which would break
+    # Bearer token / API authentication.
+    RewriteRule ^ - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+</IfModule>
+
+# ── Browser Caching ──────────────────────────────────────────
+# Requires Apache mod_expires module to be enabled.
+# Tells browsers to cache static assets locally for 1 year,
+# so they are not re-downloaded on every page visit.
+# Only update the cache when a file's URL changes (cache-busting).
+<IfModule mod_expires.c>
+
+    # Enable expiry headers globally
+    ExpiresActive On
+
+    # Images — cached for 1 year
+    ExpiresByType image/jpeg            "access plus 1 year"
+    ExpiresByType image/gif             "access plus 1 year"
+    ExpiresByType image/png             "access plus 1 year"
+    ExpiresByType image/webp            "access plus 1 year"
+    ExpiresByType image/svg+xml         "access plus 1 year"
+    ExpiresByType image/x-icon          "access plus 1 year"
+
+    # Video files — cached for 1 year
+    ExpiresByType video/webm            "access plus 1 year"
+    ExpiresByType video/mp4             "access plus 1 year"
+    ExpiresByType video/mpeg            "access plus 1 year"
+
+    # Web fonts — cached for 1 year
+    ExpiresByType font/ttf              "access plus 1 year"
+    ExpiresByType font/otf              "access plus 1 year"
+    ExpiresByType font/woff             "access plus 1 year"
+    ExpiresByType font/woff2            "access plus 1 year"
+    ExpiresByType application/font-woff "access plus 1 year"
+
+    # CSS and JavaScript — cached for 1 year
+    # Laravel mix/vite appends a hash to filenames for cache-busting
+    ExpiresByType text/css              "access plus 1 year"
+    ExpiresByType text/javascript       "access plus 1 year"
+    ExpiresByType application/javascript "access plus 1 year"
+
+    # Other static files — cached for 1 year
+    ExpiresByType application/pdf              "access plus 1 year"
+    ExpiresByType image/vnd.microsoft.icon     "access plus 1 year"
+
+</IfModule>

@@ -1,0 +1,129 @@
+/*
+|------------------------------------------------------------------------------
+| LIBServices typography for the back office
+|------------------------------------------------------------------------------
+|
+| Loaded by the merchant backend (backend.layout.main), the POS till layout
+| (backend.layout.top-head) and the super-admin layout, after their own
+| stylesheets, so every BridgeNovaX screen shares one type scale and font.
+|
+| Reading surfaces use the LIBServices scale (17px body, tight bold headings).
+| Working surfaces stay compact on purpose: data tables, form controls and the
+| whole POS till (body.pos-page) sit at 15px so a busy screen still fits.
+|
+| The font comes from the platform setting (Super admin → Settings → Site
+| font) through --lp-font. Never set font-family on `*`, <i> or <span>:
+| that replaces the icon fonts with letters.
+|
+*/
+
+:root {
+    --text-xs: .8125rem;   /* 13px */
+    --text-sm: .9375rem;   /* 15px */
+    --text-base: 1.0625rem;/* 17px */
+    --text-lg: 1.1875rem;  /* 19px */
+    --text-xl: 1.375rem;   /* 22px */
+    --text-2xl: 1.75rem;   /* 28px */
+    --text-3xl: 2.125rem;  /* 34px */
+}
+
+/* ---- Font -------------------------------------------------------------- */
+
+body,
+input, select, textarea, button, optgroup,
+.btn, .form-control, .custom-select, .form-select,
+.dropdown-menu, .modal, .popover, .tooltip,
+.select2-container, .bootstrap-select .dropdown-toggle,
+.dataTables_wrapper, .daterangepicker, .swal2-popup, .toast {
+    font-family: var(--lp-font, "Inter"), "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+body {
+    font-size: var(--text-base);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* ---- Headings ---------------------------------------------------------- */
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: 700;
+    letter-spacing: -.02em;
+    line-height: 1.25;
+    text-wrap: balance;
+}
+h1, .h1 { font-size: var(--text-2xl); }
+h2, .h2 { font-size: var(--text-xl); }
+h3, .h3 { font-size: var(--text-lg); }
+h4, .h4, .card-header h4 { font-size: var(--text-lg); }
+h5, .h5 { font-size: var(--text-base); }
+h6, .h6 { font-size: var(--text-sm); letter-spacing: -.01em; }
+.modal-title { font-size: var(--text-xl); font-weight: 700; }
+
+/* ---- Copy -------------------------------------------------------------- */
+
+/* style.default.css shrinks paragraphs to .75em; LIBServices keeps them body size. */
+p { font-size: 1em; }
+.card:not([class*=text]) p { font-size: var(--text-sm); }
+small, .small, .text-muted.small { font-size: var(--text-xs); }
+.breadcrumb, .breadcrumb-holder .breadcrumb { font-size: var(--text-sm); }
+.badge { font-size: var(--text-xs); font-weight: 600; }
+.alert { font-size: var(--text-sm); }
+
+/* ---- Controls (compact) ------------------------------------------------ */
+
+label, .forms label, .col-form-label { font-size: var(--text-sm); font-weight: 600; }
+.form-control, .custom-select, .form-select, .input-group-text,
+.bootstrap-select .dropdown-toggle, .select2-container .select2-selection {
+    font-size: var(--text-sm);
+}
+.form-control::placeholder { font-size: 1em; }
+.form-text, .invalid-feedback, .help-block { font-size: var(--text-xs); }
+
+.btn { font-size: var(--text-sm); font-weight: 600; letter-spacing: 0; }
+.btn-sm, .btn-group-sm > .btn { font-size: var(--text-xs); }
+.btn-lg, .btn-group-lg > .btn { font-size: var(--text-base); }
+.btn-xs { font-size: .75rem !important; }
+
+.dropdown-menu, .dropdown-item { font-size: var(--text-sm); }
+nav.navbar .dropdown-menu { font-size: var(--text-sm); }
+nav.navbar .dropdown-menu a { font-size: var(--text-sm); }
+
+/* ---- Data tables (compact) --------------------------------------------- */
+
+table, .table, .dataTables_wrapper { font-size: var(--text-sm); }
+.table thead th, table.dataTable thead th { font-size: var(--text-sm); font-weight: 600; }
+.dataTables_info, .dataTables_length, .dataTables_filter,
+.dataTables_paginate, .page-link, .dt-buttons .btn { font-size: var(--text-sm); }
+
+/* ---- Merchant backend chrome ------------------------------------------- */
+
+.side-navbar li a { font-size: var(--text-sm); }
+.side-navbar li ul li a { font-size: var(--text-sm); }
+.side-navbar .sidenav-heading { font-size: var(--text-xs); }
+nav.navbar a { font-size: var(--text-sm); }
+
+/* ---- Super-admin chrome ------------------------------------------------ */
+
+.sidebar-nav .nav-link { font-size: var(--text-sm); }
+.nav-section { font-size: .75rem; }
+.topbar-title { font-size: var(--text-lg); font-weight: 700; letter-spacing: -.02em; }
+.stat-card .stat-label { font-size: var(--text-xs); }
+.stat-card .stat-sub { font-size: var(--text-xs); }
+.stat-card .stat-value { letter-spacing: -.02em; }
+.badge-active, .badge-inactive, .badge-trial, .badge-pending { font-size: var(--text-xs); }
+.table tbody td { font-size: var(--text-sm); }
+.table thead th { letter-spacing: .02em; }
+
+/* ---- POS till: everything stays compact -------------------------------- */
+
+body.pos-page { font-size: var(--text-sm); line-height: 1.5; }
+body.pos-page h1, body.pos-page .h1 { font-size: var(--text-xl); }
+body.pos-page h2, body.pos-page .h2,
+body.pos-page h3, body.pos-page .h3 { font-size: var(--text-lg); }
+body.pos-page h4, body.pos-page .h4,
+body.pos-page h5, body.pos-page .h5 { font-size: var(--text-base); }
+body.pos-page h6, body.pos-page .h6 { font-size: var(--text-sm); }
+body.pos-page p, body.pos-page .card:not([class*=text]) p { font-size: var(--text-sm); }
+body.pos-page .btn { font-size: var(--text-sm); }

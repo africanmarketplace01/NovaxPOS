@@ -1,0 +1,24 @@
+name: novax_core
+description: Shared UI, networking and services for the Novax marketplace + vendor apps.
+publish_to: "none"
+version: 1.0.0
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  shared_preferences: ^2.2.3
+  cached_network_image: ^3.3.1
+  intl: ^0.20.3
+  onesignal_flutter: ^5.2.0
+  video_player: ^2.9.2
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

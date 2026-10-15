@@ -1,0 +1,66 @@
+@extends('landlord.marketplace.layout')
+@section('title', 'Create account')
+
+@section('extra-css')
+<style>
+.auth-wrap { max-width: 460px; margin: 2.5rem auto; }
+.auth-card { background:#fff; border:1px solid var(--mp-border); border-radius:16px; padding:2rem; box-shadow:var(--mp-shadow); }
+.auth-title { font-size:1.4rem; font-weight:800; color:#0f172a; margin-bottom:.35rem; }
+.auth-sub { font-size:var(--text-sm); color:#64748b; margin-bottom:1.5rem; }
+.auth-card label { font-size:var(--text-xs); font-weight:600; color:#334155; margin-bottom:.3rem; display:block; }
+.auth-card .form-control { border:1.5px solid var(--mp-border); border-radius:9px; padding:.6rem .85rem; font-size:var(--text-sm); width:100%; }
+.auth-card .form-control:focus { border-color:var(--mp-primary); outline:none; box-shadow:0 0 0 3px rgba(0,102,204,.08); }
+.auth-btn { width:100%; background:var(--mp-primary); color: var(--mp-on-primary); border:none; border-radius:9px; padding:.7rem; font-weight:700; font-size:var(--text-sm); cursor:pointer; transition:background .2s; }
+.auth-btn:hover { background:var(--mp-light); }
+.auth-alt { text-align:center; font-size:var(--text-sm); color:#64748b; margin-top:1.2rem; }
+.auth-alt a { color: var(--mp-link); font-weight:600; }
+.auth-grid { display:grid; grid-template-columns:1fr 1fr; gap:.75rem; }
+@media (max-width:480px){ .auth-grid{ grid-template-columns:1fr; } }
+</style>
+@endsection
+
+@section('content')
+<div class="container">
+  <div class="auth-wrap">
+    <div class="auth-card">
+      <div class="auth-title">Create your account</div>
+      <div class="auth-sub">Shop, track orders and post product requests to every vendor at once.</div>
+
+      @if($errors->any())
+        <div class="mp-flash mp-flash-error"><i class="fas fa-exclamation-circle"></i> {{ $errors->first() }}</div>
+      @endif
+
+      <form action="{{ route('customer.register.post') }}" method="POST">
+        @csrf
+        <div class="mb-3">
+          <label>Full name</label>
+          <input type="text" name="name" class="form-control" value="{{ old('name') }}" required autofocus>
+        </div>
+        <div class="auth-grid mb-3">
+          <div>
+            <label>Email</label>
+            <input type="email" name="email" class="form-control" value="{{ old('email') }}" required>
+          </div>
+          <div>
+            <label>Phone <span style="color:#94a3b8;font-weight:400">(optional)</span></label>
+            <input type="text" name="phone" class="form-control" value="{{ old('phone') }}">
+          </div>
+        </div>
+        <div class="auth-grid mb-3">
+          <div>
+            <label>Password</label>
+            <input type="password" name="password" class="form-control" required>
+          </div>
+          <div>
+            <label>Confirm password</label>
+            <input type="password" name="password_confirmation" class="form-control" required>
+          </div>
+        </div>
+        <button type="submit" class="auth-btn"><i class="fas fa-user-plus me-1"></i> Create account</button>
+      </form>
+
+      <div class="auth-alt">Already have an account? <a href="{{ route('customer.login') }}">Sign in</a></div>
+    </div>
+  </div>
+</div>
+@endsection

@@ -1,0 +1,50 @@
+code,name,category,cost,price,wholesale_price,unit_code,type,productdetails
+SHS-0001,Apostle Series III (literature-in-English),Senior High,7.5,20.0,0,PCS,standard,Source: Books-in-Store Database.
+SHS-0002,A+ series Elective Mathematic,Senior High,10.0,25.0,0,PCS,standard,Source: Books-in-Store Database.
+SHS-0003,A+ Series Economic,Senior High,10.0,25.0,0,PCS,standard,Source: Books-in-Store Database.
+SHS-0004,A+ Series Physics,Senior High,8.33,20.0,0,PCS,standard,Source: Books-in-Store Database.
+SHS-0005,Core Mathematic,Senior High,10.0,25.0,0,PCS,standard,Source: Books-in-Store Database.
+SHS-0006,AKi-Ola Human And Reg. Geography,Senior High,10.0,20.0,0,PCS,standard,Source: Books-in-Store Database.
+SHS-0007,AKI-OLA series Pra. Geography,Senior High,8.0,20.0,0,PCS,standard,Source: Books-in-Store Database.
+SHS-0008,Physical Geography,Senior High,10.0,25.0,0,PCS,standard,Source: Books-in-Store Database.
+SHS-0009,AKI-OLA Series  Physics Practical,Senior High,7.9,20.0,0,PCS,standard,Source: Books-in-Store Database.
+SHS-0010,AKI-OLA Series Physics,Senior High,8.33,20.0,0,PCS,standard,Source: Books-in-Store Database.
+SHS-0011,AKI-OLA Series Practical Chemistry,Senior High,7.9,20.0,0,PCS,standard,Source: Books-in-Store Database.
+SHS-0012,AKI-OLA Series Physical Geography,Senior High,7.9,25.0,0,PCS,standard,Source: Books-in-Store Database.
+SHS-0013,AKI-OLA Series Practical Biology,Senior High,8.3,20.0,0,PCS,standard,Source: Books-in-Store Database.
+SHS-0014,Combine Edition Economics,Senior High,7.9,20.0,0,PCS,standard,Source: Books-in-Store Database.
+SHS-0015,Right hour series Human & Regional Geo.,Senior High,10.0,25.0,0,PCS,standard,Source: Books-in-Store Database.
+SHS-0016,Right Hour Series Geography,Senior High,14.5,25.0,0,PCS,standard,Source: Books-in-Store Database.
+SHS-0017,One Touch Economic,Senior High,9.16,20.0,0,PCS,standard,Source: Books-in-Store Database.
+GTB-0001,EXAM FOCUS Biology,General Test Books,2.99,15.0,0,PCS,standard,Source: Books-in-Store Database.
+GTB-0002,EXAM FOCUS Mathematic,General Test Books,2.92,15.0,0,PCS,standard,Source: Books-in-Store Database.
+GTB-0003,EXAM FOCUS English,General Test Books,2.92,15.0,0,PCS,standard,Source: Books-in-Store Database.
+GTB-0004,EXAM FOCUS Chemistry,General Test Books,2.92,15.0,0,PCS,standard,Source: Books-in-Store Database.
+GTB-0005,EXAM FOCUS Literature in English,General Test Books,3.28,20.0,0,PCS,standard,Source: Books-in-Store Database.
+GTB-0006,Essential Physics,General Test Books,2.55,15.0,0,PCS,standard,Source: Books-in-Store Database.
+GTB-0007,Essential Mathematic,General Test Books,2.91,15.0,0,PCS,standard,Source: Books-in-Store Database.
+GTB-0008,Essential English Language,General Test Books,2.61,10.0,0,PCS,standard,Source: Books-in-Store Database.
+GTB-0009,Essential Geography,General Test Books,2.77,15.0,0,PCS,standard,Source: Books-in-Store Database.
+GRD-0006,The School of Money,General Readers,0,1800.0,0,PCS,standard,Source: Books-in-Store Database. Buying/cost price not recorded in source document - set manually for accurate profit tracking.
+GRD-0008,Immutable laws of Marketing,General Readers,1.0,10.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 200.0 LRD to 1.0 USD at 1 USD = 200 LRD.
+GRD-0020,How to win Friends and Influence people,General Readers,4.7,15.0,0,PCS,standard,Source: Books-in-Store Database.
+SHS-0018,Practical Chemistry,Senior High,2.0,10.0,0,PCS,standard,Source: Books-in-Store Database.
+SHS-0019,Understanding Chemistry,Senior High,3.24,10.0,0,PCS,standard,Source: Books-in-Store Database.
+SHS-0020,New School Chemistry,Senior High,2.92,15.0,0,PCS,standard,Source: Books-in-Store Database.
+BIB-0001,Church Planning,Bibles,1.34,10.0,0,PCS,standard,Source: Books-in-Store Database.
+BIB-0002,Life application Studies  Bible,Bibles,51.0,125.0,0,PCS,standard,Source: Books-in-Store Database.
+BIB-0003,NKJV Giant print/Center-column,Bibles,18.5,30.0,0,PCS,standard,Source: Books-in-Store Database. Cost converted from 3700.0 LRD to 18.5 USD at 1 USD = 200 LRD.
+BIB-0004,Holy Bible  King James version BSN,Bibles,13.33,35.0,0,PCS,standard,Source: Books-in-Store Database.
+BIB-0005,Holy Bible NIV  big Biblica (Big),Bibles,8.3,30.0,0,PCS,standard,Source: Books-in-Store Database.
+BIB-0006,Holy Bible Giant Print - HP,Bibles,10.43,30.0,0,PCS,standard,Source: Books-in-Store Database.
+BIB-0007,Holy Bible Giant print NKJV  Nelson,Bibles,12.68,45.0,0,PCS,standard,Source: Books-in-Store Database.
+BIB-0008,Holy Bible  NIV Small Biblica,Bibles,6.0,20.0,0,PCS,standard,Source: Books-in-Store Database.
+BIB-0009,The Maxwell Leadership Bible,Bibles,54.0,125.0,0,PCS,standard,Source: Books-in-Store Database.
+GRD-0034,Longman active Study Dictionary,General Readers,3.21,10.0,0,PCS,standard,Source: Books-in-Store Database.
+MSR-0001,T- square  (100cm),Measurement Tools,0,15.0,0,PCS,standard,Source: Other Goods-in-Store Database. Buying/cost price not recorded in source document - set manually for accurate profit tracking.
+MSR-0002,T -square  (80cm),Measurement Tools,0,10.0,0,PCS,standard,Source: Other Goods-in-Store Database. Buying/cost price not recorded in source document - set manually for accurate profit tracking.
+MSR-0003,Board Set,Measurement Tools,0,30.0,0,PCS,standard,Source: Other Goods-in-Store Database. Buying/cost price not recorded in source document - set manually for accurate profit tracking.
+MSR-0004,Set Square,Measurement Tools,0,12.0,0,PCS,standard,Source: Other Goods-in-Store Database. Buying/cost price not recorded in source document - set manually for accurate profit tracking.
+MSR-0005,Scale ruler,Measurement Tools,0,10.0,0,PCS,standard,Source: Other Goods-in-Store Database. Buying/cost price not recorded in source document - set manually for accurate profit tracking.
+MSR-0006,White Board (Medium Size),Measurement Tools,0,60.0,0,PCS,standard,Source: Other Goods-in-Store Database. Buying/cost price not recorded in source document - set manually for accurate profit tracking.
+MSR-0007,White Board (Small Size),Measurement Tools,0,45.0,0,PCS,standard,Source: Other Goods-in-Store Database. Buying/cost price not recorded in source document - set manually for accurate profit tracking.

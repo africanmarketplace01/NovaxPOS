@@ -1,0 +1,616 @@
+{
+  "categories": [
+    {
+      "name": "Beverages",
+      "color": "#2563eb",
+      "image": "cat-beverages.jpg"
+    },
+    {
+      "name": "Bakery",
+      "color": "#d97706",
+      "image": "cat-bakery.jpg"
+    },
+    {
+      "name": "Dairy & Eggs",
+      "color": "#0891b2",
+      "image": "cat-dairy-eggs.jpg"
+    },
+    {
+      "name": "Fruits & Veg",
+      "color": "#16a34a",
+      "image": "cat-fruits-veg.jpg"
+    },
+    {
+      "name": "Snacks",
+      "color": "#db2777",
+      "image": "cat-snacks.jpg"
+    },
+    {
+      "name": "Personal Care",
+      "color": "#7c3aed",
+      "image": "cat-personal-care.jpg"
+    },
+    {
+      "name": "Household",
+      "color": "#0d9488",
+      "image": "cat-household.jpg"
+    },
+    {
+      "name": "Electronics",
+      "color": "#334155",
+      "image": "cat-electronics.jpg"
+    },
+    {
+      "name": "Stationery",
+      "color": "#ca8a04",
+      "image": "cat-stationery.jpg"
+    },
+    {
+      "name": "Meat & Seafood",
+      "color": "#dc2626",
+      "image": "cat-meat-seafood.jpg"
+    }
+  ],
+  "brands": [
+    {
+      "name": "NovaFresh",
+      "image": "brand-novafresh.jpg"
+    },
+    {
+      "name": "GreenLeaf",
+      "image": "brand-greenleaf.jpg"
+    },
+    {
+      "name": "PurePick",
+      "image": "brand-purepick.jpg"
+    },
+    {
+      "name": "UrbanBite",
+      "image": "brand-urbanbite.jpg"
+    },
+    {
+      "name": "AquaZen",
+      "image": "brand-aquazen.jpg"
+    },
+    {
+      "name": "GlowCare",
+      "image": "brand-glowcare.jpg"
+    },
+    {
+      "name": "HomeMax",
+      "image": "brand-homemax.jpg"
+    },
+    {
+      "name": "TechNova",
+      "image": "brand-technova.jpg"
+    },
+    {
+      "name": "WriteWell",
+      "image": "brand-writewell.jpg"
+    },
+    {
+      "name": "FarmDaily",
+      "image": "brand-farmdaily.jpg"
+    },
+    {
+      "name": "SnackHub",
+      "image": "brand-snackhub.jpg"
+    },
+    {
+      "name": "BrewCraft",
+      "image": "brand-brewcraft.jpg"
+    }
+  ],
+  "products": [
+    {
+      "name": "Spring Water 500ml",
+      "category": "Beverages",
+      "brand": "AquaZen",
+      "cost": 0.3,
+      "price": 0.75,
+      "unit": "Pc",
+      "code": "1001",
+      "image": "spring-water-500ml.jpg"
+    },
+    {
+      "name": "Orange Juice 1L",
+      "category": "Beverages",
+      "brand": "NovaFresh",
+      "cost": 1.4,
+      "price": 2.8,
+      "unit": "Pc",
+      "code": "1002",
+      "image": "orange-juice-1l.jpg"
+    },
+    {
+      "name": "Cola Can 330ml",
+      "category": "Beverages",
+      "brand": "BrewCraft",
+      "cost": 0.45,
+      "price": 1.0,
+      "unit": "Pc",
+      "code": "1003",
+      "image": "cola-can-330ml.jpg"
+    },
+    {
+      "name": "Green Tea Box",
+      "category": "Beverages",
+      "brand": "GreenLeaf",
+      "cost": 2.1,
+      "price": 4.5,
+      "unit": "Box",
+      "code": "1004",
+      "image": "green-tea-box.jpg"
+    },
+    {
+      "name": "Ground Coffee 250g",
+      "category": "Beverages",
+      "brand": "BrewCraft",
+      "cost": 3.8,
+      "price": 7.5,
+      "unit": "Pc",
+      "code": "1005",
+      "image": "ground-coffee-250g.jpg"
+    },
+    {
+      "name": "Energy Drink 250ml",
+      "category": "Beverages",
+      "brand": "BrewCraft",
+      "cost": 0.9,
+      "price": 2.2,
+      "unit": "Pc",
+      "code": "1006",
+      "image": "energy-drink-250ml.jpg"
+    },
+    {
+      "name": "Whole Wheat Bread",
+      "category": "Bakery",
+      "brand": "UrbanBite",
+      "cost": 0.8,
+      "price": 1.9,
+      "unit": "Pc",
+      "code": "1007",
+      "image": "whole-wheat-bread.jpg"
+    },
+    {
+      "name": "Croissant",
+      "category": "Bakery",
+      "brand": "UrbanBite",
+      "cost": 0.5,
+      "price": 1.4,
+      "unit": "Pc",
+      "code": "1008",
+      "image": "croissant.jpg"
+    },
+    {
+      "name": "Chocolate Muffin",
+      "category": "Bakery",
+      "brand": "UrbanBite",
+      "cost": 0.6,
+      "price": 1.75,
+      "unit": "Pc",
+      "code": "1009",
+      "image": "chocolate-muffin.jpg"
+    },
+    {
+      "name": "Baguette",
+      "category": "Bakery",
+      "brand": "UrbanBite",
+      "cost": 0.55,
+      "price": 1.5,
+      "unit": "Pc",
+      "code": "1010",
+      "image": "baguette.jpg"
+    },
+    {
+      "name": "Fresh Milk 1L",
+      "category": "Dairy & Eggs",
+      "brand": "FarmDaily",
+      "cost": 0.9,
+      "price": 1.8,
+      "unit": "Pc",
+      "code": "1011",
+      "image": "fresh-milk-1l.jpg"
+    },
+    {
+      "name": "Cheddar Cheese 200g",
+      "category": "Dairy & Eggs",
+      "brand": "FarmDaily",
+      "cost": 2.2,
+      "price": 4.6,
+      "unit": "Pc",
+      "code": "1012",
+      "image": "cheddar-cheese-200g.jpg"
+    },
+    {
+      "name": "Butter 250g",
+      "category": "Dairy & Eggs",
+      "brand": "FarmDaily",
+      "cost": 1.6,
+      "price": 3.2,
+      "unit": "Pc",
+      "code": "1013",
+      "image": "butter-250g.jpg"
+    },
+    {
+      "name": "Free Range Eggs 12pk",
+      "category": "Dairy & Eggs",
+      "brand": "FarmDaily",
+      "cost": 1.8,
+      "price": 3.9,
+      "unit": "Box",
+      "code": "1014",
+      "image": "free-range-eggs-12pk.jpg"
+    },
+    {
+      "name": "Greek Yogurt 500g",
+      "category": "Dairy & Eggs",
+      "brand": "FarmDaily",
+      "cost": 1.5,
+      "price": 3.1,
+      "unit": "Pc",
+      "code": "1015",
+      "image": "greek-yogurt-500g.jpg"
+    },
+    {
+      "name": "Bananas 1kg",
+      "category": "Fruits & Veg",
+      "brand": "GreenLeaf",
+      "cost": 0.7,
+      "price": 1.6,
+      "unit": "Kg",
+      "code": "1016",
+      "image": "bananas-1kg.jpg"
+    },
+    {
+      "name": "Red Apples 1kg",
+      "category": "Fruits & Veg",
+      "brand": "GreenLeaf",
+      "cost": 1.1,
+      "price": 2.4,
+      "unit": "Kg",
+      "code": "1017",
+      "image": "red-apples-1kg.jpg"
+    },
+    {
+      "name": "Tomatoes 1kg",
+      "category": "Fruits & Veg",
+      "brand": "GreenLeaf",
+      "cost": 0.9,
+      "price": 2.0,
+      "unit": "Kg",
+      "code": "1018",
+      "image": "tomatoes-1kg.jpg"
+    },
+    {
+      "name": "Carrots 1kg",
+      "category": "Fruits & Veg",
+      "brand": "GreenLeaf",
+      "cost": 0.6,
+      "price": 1.4,
+      "unit": "Kg",
+      "code": "1019",
+      "image": "carrots-1kg.jpg"
+    },
+    {
+      "name": "Baby Spinach 200g",
+      "category": "Fruits & Veg",
+      "brand": "GreenLeaf",
+      "cost": 1.0,
+      "price": 2.3,
+      "unit": "Pc",
+      "code": "1020",
+      "image": "baby-spinach-200g.jpg"
+    },
+    {
+      "name": "Avocado",
+      "category": "Fruits & Veg",
+      "brand": "GreenLeaf",
+      "cost": 0.8,
+      "price": 1.9,
+      "unit": "Pc",
+      "code": "1021",
+      "image": "avocado.jpg"
+    },
+    {
+      "name": "Potato Chips 150g",
+      "category": "Snacks",
+      "brand": "SnackHub",
+      "cost": 0.9,
+      "price": 2.1,
+      "unit": "Pc",
+      "code": "1022",
+      "image": "potato-chips-150g.jpg"
+    },
+    {
+      "name": "Salted Peanuts 200g",
+      "category": "Snacks",
+      "brand": "SnackHub",
+      "cost": 1.1,
+      "price": 2.5,
+      "unit": "Pc",
+      "code": "1023",
+      "image": "salted-peanuts-200g.jpg"
+    },
+    {
+      "name": "Chocolate Bar",
+      "category": "Snacks",
+      "brand": "SnackHub",
+      "cost": 0.55,
+      "price": 1.3,
+      "unit": "Pc",
+      "code": "1024",
+      "image": "chocolate-bar.jpg"
+    },
+    {
+      "name": "Cookies Pack",
+      "category": "Snacks",
+      "brand": "SnackHub",
+      "cost": 1.0,
+      "price": 2.4,
+      "unit": "Pc",
+      "code": "1025",
+      "image": "cookies-pack.jpg"
+    },
+    {
+      "name": "Popcorn 100g",
+      "category": "Snacks",
+      "brand": "SnackHub",
+      "cost": 0.7,
+      "price": 1.8,
+      "unit": "Pc",
+      "code": "1026",
+      "image": "popcorn-100g.jpg"
+    },
+    {
+      "name": "Shampoo 400ml",
+      "category": "Personal Care",
+      "brand": "GlowCare",
+      "cost": 2.5,
+      "price": 5.9,
+      "unit": "Pc",
+      "code": "1027",
+      "image": "shampoo-400ml.jpg"
+    },
+    {
+      "name": "Bar Soap 3pk",
+      "category": "Personal Care",
+      "brand": "GlowCare",
+      "cost": 1.2,
+      "price": 2.8,
+      "unit": "Pc",
+      "code": "1028",
+      "image": "bar-soap-3pk.jpg"
+    },
+    {
+      "name": "Toothpaste 100ml",
+      "category": "Personal Care",
+      "brand": "GlowCare",
+      "cost": 1.0,
+      "price": 2.6,
+      "unit": "Pc",
+      "code": "1029",
+      "image": "toothpaste-100ml.jpg"
+    },
+    {
+      "name": "Body Lotion 250ml",
+      "category": "Personal Care",
+      "brand": "GlowCare",
+      "cost": 2.8,
+      "price": 6.2,
+      "unit": "Pc",
+      "code": "1030",
+      "image": "body-lotion-250ml.jpg"
+    },
+    {
+      "name": "Hand Sanitizer 100ml",
+      "category": "Personal Care",
+      "brand": "GlowCare",
+      "cost": 0.9,
+      "price": 2.3,
+      "unit": "Pc",
+      "code": "1031",
+      "image": "hand-sanitizer-100ml.jpg"
+    },
+    {
+      "name": "Dish Soap 500ml",
+      "category": "Household",
+      "brand": "HomeMax",
+      "cost": 1.3,
+      "price": 3.1,
+      "unit": "Pc",
+      "code": "1032",
+      "image": "dish-soap-500ml.jpg"
+    },
+    {
+      "name": "Laundry Detergent 2L",
+      "category": "Household",
+      "brand": "HomeMax",
+      "cost": 4.2,
+      "price": 8.9,
+      "unit": "Pc",
+      "code": "1033",
+      "image": "laundry-detergent-2l.jpg"
+    },
+    {
+      "name": "Paper Towels 4pk",
+      "category": "Household",
+      "brand": "HomeMax",
+      "cost": 2.1,
+      "price": 4.6,
+      "unit": "Box",
+      "code": "1034",
+      "image": "paper-towels-4pk.jpg"
+    },
+    {
+      "name": "Trash Bags 30pk",
+      "category": "Household",
+      "brand": "HomeMax",
+      "cost": 1.8,
+      "price": 3.9,
+      "unit": "Box",
+      "code": "1035",
+      "image": "trash-bags-30pk.jpg"
+    },
+    {
+      "name": "Glass Cleaner 500ml",
+      "category": "Household",
+      "brand": "HomeMax",
+      "cost": 1.6,
+      "price": 3.5,
+      "unit": "Pc",
+      "code": "1036",
+      "image": "glass-cleaner-500ml.jpg"
+    },
+    {
+      "name": "USB-C Cable 1m",
+      "category": "Electronics",
+      "brand": "TechNova",
+      "cost": 1.5,
+      "price": 4.9,
+      "unit": "Pc",
+      "code": "1037",
+      "image": "usb-c-cable-1m.jpg"
+    },
+    {
+      "name": "Wireless Mouse",
+      "category": "Electronics",
+      "brand": "TechNova",
+      "cost": 5.5,
+      "price": 13.9,
+      "unit": "Pc",
+      "code": "1038",
+      "image": "wireless-mouse.jpg"
+    },
+    {
+      "name": "Phone Charger 20W",
+      "category": "Electronics",
+      "brand": "TechNova",
+      "cost": 4.0,
+      "price": 11.5,
+      "unit": "Pc",
+      "code": "1039",
+      "image": "phone-charger-20w.jpg"
+    },
+    {
+      "name": "Earbuds",
+      "category": "Electronics",
+      "brand": "TechNova",
+      "cost": 8.0,
+      "price": 22.0,
+      "unit": "Pc",
+      "code": "1040",
+      "image": "earbuds.jpg"
+    },
+    {
+      "name": "Power Bank 10000mAh",
+      "category": "Electronics",
+      "brand": "TechNova",
+      "cost": 9.5,
+      "price": 24.9,
+      "unit": "Pc",
+      "code": "1041",
+      "image": "power-bank-10000mah.jpg"
+    },
+    {
+      "name": "AA Batteries 4pk",
+      "category": "Electronics",
+      "brand": "TechNova",
+      "cost": 1.2,
+      "price": 3.2,
+      "unit": "Box",
+      "code": "1042",
+      "image": "aa-batteries-4pk.jpg"
+    },
+    {
+      "name": "Ballpoint Pens 10pk",
+      "category": "Stationery",
+      "brand": "WriteWell",
+      "cost": 1.1,
+      "price": 2.8,
+      "unit": "Box",
+      "code": "1043",
+      "image": "ballpoint-pens-10pk.jpg"
+    },
+    {
+      "name": "A4 Notebook",
+      "category": "Stationery",
+      "brand": "WriteWell",
+      "cost": 0.9,
+      "price": 2.2,
+      "unit": "Pc",
+      "code": "1044",
+      "image": "a4-notebook.jpg"
+    },
+    {
+      "name": "Sticky Notes",
+      "category": "Stationery",
+      "brand": "WriteWell",
+      "cost": 0.7,
+      "price": 1.9,
+      "unit": "Pc",
+      "code": "1045",
+      "image": "sticky-notes.jpg"
+    },
+    {
+      "name": "Highlighter Set",
+      "category": "Stationery",
+      "brand": "WriteWell",
+      "cost": 1.3,
+      "price": 3.1,
+      "unit": "Box",
+      "code": "1046",
+      "image": "highlighter-set.jpg"
+    },
+    {
+      "name": "Printer Paper 500sh",
+      "category": "Stationery",
+      "brand": "WriteWell",
+      "cost": 3.2,
+      "price": 6.5,
+      "unit": "Box",
+      "code": "1047",
+      "image": "printer-paper-500sh.jpg"
+    },
+    {
+      "name": "Chicken Breast 1kg",
+      "category": "Meat & Seafood",
+      "brand": "PurePick",
+      "cost": 3.8,
+      "price": 7.9,
+      "unit": "Kg",
+      "code": "1048",
+      "image": "chicken-breast-1kg.jpg"
+    },
+    {
+      "name": "Ground Beef 500g",
+      "category": "Meat & Seafood",
+      "brand": "PurePick",
+      "cost": 2.9,
+      "price": 5.9,
+      "unit": "Pc",
+      "code": "1049",
+      "image": "ground-beef-500g.jpg"
+    },
+    {
+      "name": "Salmon Fillet 300g",
+      "category": "Meat & Seafood",
+      "brand": "PurePick",
+      "cost": 4.5,
+      "price": 9.8,
+      "unit": "Pc",
+      "code": "1050",
+      "image": "salmon-fillet-300g.jpg"
+    },
+    {
+      "name": "Shrimp 500g",
+      "category": "Meat & Seafood",
+      "brand": "PurePick",
+      "cost": 5.2,
+      "price": 10.9,
+      "unit": "Pc",
+      "code": "1051",
+      "image": "shrimp-500g.jpg"
+    }
+  ]
+}

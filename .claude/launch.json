@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "novaxpos",
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": ["/c", "set DEBUGBAR_ENABLED=false&& set CENTRAL_DOMAIN=127.0.0.1&& php artisan serve --port=8030"],
+      "port": 8030
+    }
+  ]
+}

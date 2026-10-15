@@ -1,0 +1,18 @@
+# Dart/Flutter package — no platform folders
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+pubspec.lock
+doc/api/
+
+# IDE
+.idea/
+*.iml
+*.iws
+.vscode/
+
+# Misc
+.DS_Store
+*.log
