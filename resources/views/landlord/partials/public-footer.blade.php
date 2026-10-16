@@ -7,11 +7,11 @@
             @else
                 <p class="site-footer__name">{{ $siteN }}<span>.</span></p>
             @endif
-            <p class="site-footer__about">The complete cloud POS and marketplace for growing businesses: sell in-store, online and everywhere in between.</p>
+            <p class="site-footer__about">Your business, connected. Manage your operations, sell online, reach more customers, and simplify delivery with one powerful cloud-based platform.</p>
         </div>
 
         <div>
-            <p class="site-footer__title">Product</p>
+            <p class="site-footer__title">Platform</p>
             <ul>
                 <li><a href="{{ route('landing') }}#features">Features</a></li>
                 <li><a href="{{ route('pricing') }}">Pricing</a></li>
@@ -21,11 +21,11 @@
         </div>
 
         <div>
-            <p class="site-footer__title">Marketplace</p>
+            <p class="site-footer__title">Shop</p>
             <ul>
                 <li><a href="{{ route('marketplace.index') }}">Shop the marketplace</a></li>
                 <li><a href="{{ route('sell') }}">Sell on the marketplace (free)</a></li>
-                <li><a href="{{ route('businesses') }}">Businesses</a></li>
+                <li><a href="{{ route('businesses') }}">Stores</a></li>
                 <li><a href="{{ route('delivery.register') }}">Become a delivery partner</a></li>
             </ul>
         </div>

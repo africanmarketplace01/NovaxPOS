@@ -6,13 +6,24 @@
 @php $domain = env('CENTRAL_DOMAIN', 'novasuitespos.com'); @endphp
 
 @section('content')
-    @include('landlord.partials.page-hero', [
-        'eyebrow' => 'Sell on the marketplace',
-        'title' => 'Start selling for free. Pay only when you sell.',
-        'lead' => 'No subscription and no monthly bill. List your products on the ' . $siteN . ' marketplace and pay ' . $commission . ' when a customer buys.',
-    ])
+    <div class="sell-page-hero">
+        @include('landlord.partials.page-hero', [
+            'eyebrow' => 'SELL ON THE MARKETPLACE',
+            'title' => 'Your Products Deserve More Customers.',
+            'lead' => 'Create your business account, list your products, and start reaching shoppers on the ' . $siteN . ' . No monthly marketplace subscription — just a ' . $commission . ' fee on each completed order. Your store stays open as long as you sell.',
+        ])
+    </div>
+    <style>
+        .sell-page-hero .page-hero {
+            background-image:
+                linear-gradient(rgb(0 25 55 / .62), rgb(0 25 55 / .62)),
+                url('{{ asset('images/start-selling-bg-image.jpg') }}');
+            background-position: center;
+            background-size: cover;
+        }
+    </style>
 
-    <section class="section" style="padding-top:3rem;background-image:url('{{ asset('images/start-selling-bg-image.jpg') }}');background-position:center;background-size:cover">
+    <section class="section" style="padding-top:3rem">
         <div class="container">
             <div class="grid grid--3" style="margin-bottom:3rem">
                 <div class="card card--pad">

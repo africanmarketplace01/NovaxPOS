@@ -2,7 +2,7 @@
 @section('title', 'Order Confirmed')
 
 @section('content')
-<div class="container py-5" style="max-width:680px">
+<div class="container py-5 order-success-page" style="max-width:760px">
     <div class="text-center mb-4">
         <div style="width:80px;height:80px;background:#f0fdf4;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 1rem;border:2px solid #22c55e">
             <i class="fas fa-check" style="font-size:2rem;color:#22c55e"></i>
@@ -22,12 +22,12 @@
     </div>
 
     {{-- Tracking timeline --}}
-    <div class="bg-white rounded-3 p-4 mb-4" style="border:1px solid var(--mp-border)">
+    <div class="mk-panel p-4 mb-4 order-success-panel">
         <h6 class="fw-bold mb-3"><i class="fas fa-truck-fast me-2" style="color: var(--mp-link)"></i>Order Tracking</h6>
         @include('landlord.marketplace._tracking', ['order' => $order])
     </div>
 
-    <div class="bg-white rounded-3 p-4 mb-4" style="border:1px solid var(--mp-border)">
+    <div class="mk-panel p-4 mb-4 order-success-panel">
         <h6 class="fw-bold mb-3">Order Details</h6>
 
         @foreach($order->items as $item)
@@ -57,7 +57,7 @@
         </div>
     </div>
 
-    <div class="bg-white rounded-3 p-4 mb-4" style="border:1px solid var(--mp-border)">
+    <div class="mk-panel p-4 mb-4 order-success-panel">
         <h6 class="fw-bold mb-3">Delivery Info</h6>
         <div class="small">
             <div><i class="fas fa-map-marker-alt me-2" style="color: var(--mp-link)"></i>{{ $order->customer_address }}</div>

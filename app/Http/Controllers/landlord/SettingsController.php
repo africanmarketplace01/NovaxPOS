@@ -174,7 +174,6 @@ class SettingsController extends Controller
             @unlink(storage_path('app/landlord-logos/' . $logo));
             @unlink(public_path('landlord/images/logo/' . $logo));
             SaasSettings::bulkSet(['site_logo' => null]);
-            SaasSettings::clearCache();
         }
         return back()->with('message', 'Logo removed.');
     }

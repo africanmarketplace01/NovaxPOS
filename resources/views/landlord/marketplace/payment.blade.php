@@ -2,7 +2,7 @@
 @section('title', 'Complete Payment')
 
 @section('content')
-<div class="container" style="max-width:600px;padding:3rem 1rem">
+<div class="container payment-page" style="max-width:640px;padding:3rem 1rem">
     <div style="text-align:center;margin-bottom:2rem">
         <div style="width:64px;height:64px;background:var(--mkt-primary,#0066CC);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 1rem">
             <i class="fas fa-credit-card" style="color:#fff;font-size:1.5rem"></i>
@@ -11,7 +11,7 @@
         <p class="text-muted" style="font-size:var(--text-sm)">Order <strong>{{ $order->order_number }}</strong> — Total: <strong>{{ $order->currency }} {{ number_format($order->total, 2) }}</strong></p>
     </div>
 
-    <div style="background:#fff;border-radius:14px;border:1px solid #e2e8f0;padding:2rem">
+    <div class="mk-panel payment-panel" style="background:#fff;border-radius:14px;border:1px solid #e2e8f0;padding:2rem">
 
         @if($method === 'stripe')
         {{-- ── Stripe ─────────────────────────────────────────────────────── --}}

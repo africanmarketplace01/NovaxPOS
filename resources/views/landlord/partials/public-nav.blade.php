@@ -7,12 +7,11 @@
     $onLanding = request()->routeIs('landing');
     $home = $onLanding ? '' : route('landing');
     $links = [
-        ['href' => $home . '#features', 'label' => 'Features', 'route' => null],
-        ['href' => $home . '#how-it-works', 'label' => 'How it works', 'route' => null],
+        ['href' => $home . '#features', 'label' => 'Platform', 'route' => null],
         ['href' => route('pricing'), 'label' => 'Pricing', 'route' => 'pricing'],
-        ['href' => route('marketplace.index'), 'label' => 'Marketplace', 'route' => 'marketplace.index'],
-        ['href' => route('businesses'), 'label' => 'Businesses', 'route' => 'businesses'],
-        ['href' => route('tutorials'), 'label' => 'Tutorials', 'route' => 'tutorials'],
+        ['href' => route('marketplace.index'), 'label' => 'Shop', 'route' => 'marketplace.index'],
+        ['href' => route('businesses'), 'label' => 'Stores', 'route' => 'businesses'],
+        ['href' => route('sell'), 'label' => 'Create Store', 'route' => 'sell'],
     ];
     $solid = $solid ?? false;
 @endphp
@@ -31,6 +30,13 @@
             @foreach ($links as $link)
                 <a href="{{ $link['href'] }}" @if ($link['route'] && request()->routeIs($link['route'])) aria-current="page" @endif>{{ $link['label'] }}</a>
             @endforeach
+            <details class="site-nav__dropdown" @if (request()->routeIs('tutorials')) open @endif>
+                <summary @if (request()->routeIs('tutorials')) aria-current="page" @endif>Learn <i class="fas fa-chevron-down" aria-hidden="true"></i></summary>
+                <div class="site-nav__dropdown-menu">
+                    <a href="{{ $home }}#how-it-works">How it works</a>
+                    <a href="{{ route('tutorials') }}" @if (request()->routeIs('tutorials')) aria-current="page" @endif>Tutorials</a>
+                </div>
+            </details>
         </nav>
 
         <div class="site-header__actions">
@@ -47,6 +53,11 @@
             @foreach ($links as $link)
                 <a href="{{ $link['href'] }}">{{ $link['label'] }}</a>
             @endforeach
+            <details class="mobile-menu__dropdown" @if (request()->routeIs('tutorials')) open @endif>
+                <summary>Learn <i class="fas fa-chevron-down" aria-hidden="true"></i></summary>
+                <a href="{{ $home }}#how-it-works">How it works</a>
+                <a href="{{ route('tutorials') }}">Tutorials</a>
+            </details>
             <a href="{{ route('superadmin.login') }}">Sign in</a>
             <a href="{{ route('register') }}" class="btn btn--primary btn--block">Start free</a>
         </nav>

@@ -128,14 +128,25 @@ class MarketplaceController extends Controller
 
     public function shop(Request $request, string $tenantId)
     {
+        $shopTenant = Tenant::active()->findOrFail($tenantId);
+        abort_if($shopTenant->marketplace_hold, 404);
+
         $shopInfo = MarketplaceListing::visible()
             ->where('tenant_id', $tenantId)
             ->selectRaw('tenant_id, tenant_store_name, tenant_name, COUNT(*) as product_count')
             ->groupBy('tenant_id', 'tenant_store_name', 'tenant_name')
-            ->firstOrFail();
+            ->first();
 
-        // Attach tenant logo
-        $shopTenant = Tenant::find($tenantId);
+        if (!$shopInfo && !$shopTenant->ecommerce_enabled) {
+            abort(404);
+        }
+
+        $shopInfo ??= (object) [
+            'tenant_id' => $shopTenant->id,
+            'tenant_store_name' => null,
+            'tenant_name' => $shopTenant->company_name,
+            'product_count' => 0,
+        ];
         $shopInfo->logo_url = $shopTenant ? $shopTenant->logo_url : null;
 
         $query = MarketplaceListing::visible()->forTenant($tenantId);

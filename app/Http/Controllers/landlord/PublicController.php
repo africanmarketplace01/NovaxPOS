@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\landlord\Package;
 use App\Models\landlord\PlanPromotion;
 use App\Models\landlord\SaasSettings;
+use App\Models\landlord\MarketplaceListing;
 use App\Models\landlord\Tenant;
 use App\Models\landlord\Testimonial;
 use App\Traits\TenantInfo;
@@ -161,6 +162,34 @@ class PublicController extends Controller
         $businesses = $query->orderBy('company_name')
             ->paginate(24, ['id', 'company_name', 'logo', 'ecommerce_enabled'])
             ->withQueryString();
+
+        $tenantIds = $businesses->getCollection()->pluck('id');
+        $listingInfo = $tenantIds->isEmpty()
+            ? collect()
+            : MarketplaceListing::visible()
+                ->whereIn('tenant_id', $tenantIds)
+                ->selectRaw('tenant_id, MAX(tenant_store_name) as store_name, COUNT(*) as product_count')
+                ->groupBy('tenant_id')
+                ->get()
+                ->keyBy('tenant_id');
+        $categoryInfo = $tenantIds->isEmpty()
+            ? collect()
+            : MarketplaceListing::visible()
+                ->whereIn('tenant_id', $tenantIds)
+                ->whereNotNull('category')
+                ->where('category', '!=', '')
+                ->select('tenant_id', 'category')
+                ->distinct()
+                ->get()
+                ->groupBy('tenant_id')
+                ->map(fn ($rows) => $rows->pluck('category')->values());
+
+        $businesses->getCollection()->each(function ($tenant) use ($listingInfo, $categoryInfo) {
+            $info = $listingInfo->get($tenant->id);
+            $tenant->setAttribute('marketplace_store_name', $info?->store_name);
+            $tenant->setAttribute('marketplace_product_count', (int) ($info?->product_count ?? 0));
+            $tenant->setAttribute('marketplace_categories', $categoryInfo->get($tenant->id, collect()));
+        });
 
         return view('landlord.businesses', compact('businesses'));
     }

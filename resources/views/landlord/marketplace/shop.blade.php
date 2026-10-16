@@ -78,7 +78,7 @@
     <div class="empty-state">
       <i class="fas fa-box-open"></i>
       <h5>Nothing here yet</h5>
-      <p>This store has no products matching your filters.</p>
+      <p>{{ $shopInfo->product_count > 0 ? 'This store has no products matching your filters.' : 'This store has not listed any products yet.' }}</p>
       <a href="{{ route('marketplace.shop', $shopInfo->tenant_id) }}" class="btn-mp">See all products</a>
     </div>
   @else

@@ -30,7 +30,7 @@
 </style>
 @yield('extra-css')
 </head>
-<body>
+<body class="{{ request()->routeIs('marketplace.cart') ? 'page-cart' : (request()->routeIs('marketplace.checkout') ? 'page-checkout' : '') }}">
 
 {{-- Utility strip --}}
 <div class="mk-strip">

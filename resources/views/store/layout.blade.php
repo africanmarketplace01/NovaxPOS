@@ -147,6 +147,7 @@
             .nav-brand span { display: none; }
         }
     </style>
+    <link rel="stylesheet" href="{{ asset('css/lib-type.css') }}?v={{ @filemtime(public_path('css/lib-type.css')) }}">
     @stack('styles')
 </head>
 <body>

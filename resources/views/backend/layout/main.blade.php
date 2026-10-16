@@ -197,6 +197,8 @@
             --lp-lime:           {{ $__th['theme_lime']          ?? '#8DFF00' }};
             --lp-dark:           {{ $__th['theme_dark']          ?? '#003366' }};
             --lp-cyan:           {{ $__th['theme_cyan']          ?? '#00D4FF' }};
+            --theme-color:       var(--lp-primary);
+            --theme-color-light: var(--lp-primary-light);
         }
         @php $__font = $__th['site_font'] ?? 'Inter'; $__fontSlug = str_replace(' ', '+', $__font); @endphp
         /* Platform font, applied by css/lib-type.css. Not set on `*`: that
@@ -205,6 +207,8 @@
         /* Apply brand primary to Bootstrap primary overrides */
         .btn-primary, .badge-primary, .bg-primary { background-color: var(--lp-primary) !important; border-color: var(--lp-primary) !important; }
         .btn-primary:hover { background-color: var(--lp-primary-light) !important; border-color: var(--lp-primary-light) !important; }
+        .btn-outline-primary { color: var(--lp-primary) !important; border-color: var(--lp-primary) !important; }
+        .btn-outline-primary:hover { color: #fff !important; background-color: var(--lp-primary) !important; }
         .text-primary  { color: var(--lp-primary) !important; }
         .border-primary{ border-color: var(--lp-primary) !important; }
         a { --bs-link-color: var(--lp-primary); }

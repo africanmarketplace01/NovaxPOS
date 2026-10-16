@@ -21,7 +21,8 @@ class MarketplaceCheckoutController extends Controller
     {
         $cart     = session('mkt_cart', []);
         $subtotal = collect($cart)->sum(fn($i) => $i['price'] * $i['qty']);
-        return view('landlord.marketplace.cart', compact('cart', 'subtotal'));
+        $currency = SaasSettings::get('currency') ?? 'USD';
+        return view('landlord.marketplace.cart', compact('cart', 'subtotal', 'currency'));
     }
 
     public function addToCart(Request $request)
